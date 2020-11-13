@@ -18,7 +18,7 @@ body{
 
 #hero{
     flex: 1;
-    background: url(./images/bg-pattern-desktop.svg) no-repeat 128% 68%;
+    background: url(./images/bg-pattern-desktop.svg) no-repeat -570px 68%;
 }
 
 #woman{
@@ -101,13 +101,13 @@ h1{
     color:white;
 }
 
-@media (max-width: 1250px){
+@media (max-width: 1100px){
     body{
         padding: 4% 1%;
     }
 
     #container{
-        max-width: 750px;
+        max-width: 700px;
         margin-top: 150px;
     }
 
